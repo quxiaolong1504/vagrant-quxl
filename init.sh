@@ -1,4 +1,6 @@
 #/bin/bash
+sudo apt-get install mysql-client-core-5.5
+
 sudo apt-get update
 sudo apt-get install git
 sudo apt-get install sudo apt-get install mysql-server
