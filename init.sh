@@ -9,3 +9,7 @@ mkdir $HOME/.virtualenvs
 echo export WORKON_HOME=$HOME/.virtualenvs>>~/.bashrc
 echo source /usr/local/bin/virtualenvwrapper.sh>>~/.bashrc
 source ~/.bashrc
+
+mkdir workspace
+cd workspace
+git clone https://github.com/quxiaolong1504/cloudmusic.git
